@@ -1,0 +1,202 @@
+@import "tailwindcss";
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.max-box {
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .max-box {
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 768px) {
+    .max-box {
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .max-box {
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .max-box {
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .max-box {
+        max-width: 800px;
+    }
+}
+
+
+/* RESUME */
+/* Container small */
+
+
+.container-small {
+    width: 100%;
+    margin: auto;
+}
+
+@media (min-width: 640px) {
+    .container-small {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-small {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container-small {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container-small {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .container-small {
+        max-width: 700px;
+    }
+}
+
+.b1 {
+    border-left: 8px solid blue;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+.input1 {
+    border: none;
+    border-bottom: 2px solid black
+}
+
+.btn1 {
+    padding: 8px 30px;
+    background-color: rgb(34, 34, 237);
+    color: white;
+    font-size: 14px;
+    border: 2px solid rgb(34, 34, 237);
+    border-radius: 40px;
+    font-weight: 700;
+}
+
+.btn1:hover {
+    border: 2px solid rgb(34, 34, 237);
+    padding: 8px 30px;
+    background-color: transparent;
+    color: black;
+    transition: 0.5s;
+}
+
+.btn2 {
+    padding: 8px 30px;
+    background-color: rgba(34, 34, 237, 0);
+    color: black;
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    font-weight: 700;
+}
+
+.btn2:hover {
+    padding: 8px 30px;
+    background-color: rgb(34, 34, 237);
+    color: white;
+    font-size: 14px;
+    border: 2px solid rgb(34, 34, 237);
+    transition: 0.5s;
+}
+
+input {
+    border: none;
+}
+
+Link:active {
+    color: blue;
+
+}
+
+
+@media (min-width:640px) {
+    .left {
+
+        margin-left: -300px;
+    }
+}
+
+@media (max-width:640px) {
+
+    .sm11 {
+        width: 80%;
+        margin: auto;
+        background-color: transparent;
+    }
+}
