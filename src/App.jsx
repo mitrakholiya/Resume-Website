@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import About from './Componentrs/About'
 import Resume from './Componentrs/Resume'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Project from './Componentrs/Project'
 import Contact from './Componentrs/Contact'
 
@@ -9,7 +9,7 @@ import Contact from './Componentrs/Contact'
 
 
 function App() {
-  let x1 = createBrowserRouter([{
+  let x1 = createHashRouter([{
     path: "/",
     element: <About />
   },
