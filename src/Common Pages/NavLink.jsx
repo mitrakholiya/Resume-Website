@@ -26,12 +26,15 @@ const NavLink = () => {
             </div>
 
             <div className='sm:hidden flex w-[max-content]'>
-                <button onClick={() => setOpen(!open)} className='text-[20px] font-bold'>☰</button>
+                <button onClick={() => setOpen(!open)} className='text-[26px] font-bold'>☰</button>
                 {open ? (<>
                     <div className="fixed inset-0 bg-[#f4ece6] z-30 ">
                         <div className='flex flex-col items-center  gap-8 mt-[30px] justify-center'>
-
-                            <button onClick={() => setOpen(!open)} className='text-[26px] font-extrabold'> ✕</button>
+                            <div className='relative w-[100%]'>
+                            <div className='absolute right-[30px] top-[-10px] '>
+                                <button onClick={() => setOpen(!open)} className='text-[26px] font-extrabold'> ✕</button>
+                            </div>
+                            </div>
                             <ul className='text-[28px] flex flex-col gap-8 font-bold   '>
                                 <li>
                                     <Link to="/" onClick={() => setChange("about")} className={change === "about" ? "text-[blue]" : "text-[black]"}>ABOUT ME</Link>
