@@ -1,6 +1,6 @@
 import React from 'react'
 import mit from '../../assets/04.jpg'
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaInstagram,FaGithub } from "react-icons/fa";
 
 const Left = () => {
     return (
@@ -17,13 +17,13 @@ const Left = () => {
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                         <FaFacebook className="hover:text-blue-600 transition duration-300" />
                     </a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                        <FaTwitter className="hover:text-sky-500 transition duration-300" />
+                    <a href="https://github.com/mitrakholiya" target="_blank" rel="noopener noreferrer">
+                        <FaGithub className="hover:text-gray-800 transition duration-300" />
                     </a>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/mit-rakholiya-42357735b/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="hover:text-blue-700 transition duration-300" />
                     </a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://instagram.com/mitrakholiya_?igsh=MXZkdnjvbXQ3emZpZQ==" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="hover:text-pink-500 transition duration-300" />
                     </a>
                 </div>

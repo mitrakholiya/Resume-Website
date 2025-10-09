@@ -16,9 +16,9 @@ const About = () => {
                     </div>
                     {/* THIS BOX GIVEN MARGIN --- */}
                     {/* Left is class for margin -300px */}
-                    <div className="max-box bg-[#F4ECE6] left sm:h-[500px]">
+                    <div className="max-box bg-[#F4ECE6] left sm:h-[500px] pb-[150px] sm:pb-[0px]">
 
-                        <div className='flex sm:h-[100%] flex-wrap'>
+                        <div className='flex sm:h-[100%] flex-wrap sm:shadow-[-4px_0_10px_rgba(0,0,0,0.3)]'>
                             {/* Left */}
                             <Left />
 

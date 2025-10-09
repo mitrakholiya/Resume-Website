@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Right = () => {
     return (
         <>
-            <div className="w-[55%] bg-white sm:ps-[30px] h-[500px] sm11">
+            <div className="w-[55%] bg-white sm:ps-[30px] pe-[10px] h-[500px] sm11">
                 <div className="flex flex-col sm:h-[100%] justify-between">
                     <div className=" text-[90px] font-bold">
                         Hello
@@ -11,14 +12,17 @@ const Right = () => {
                     <div className='text-[30px] pt-[10px]'>
                         Here's who I am & what I do
                     </div>
-                    <div className='flex py-[20px] sm:py-[40px]'>
-                        <button className='btn1 me-[10px]'>RESUME</button>
-                        <button className='btn2'>PROJECTS</button>
+                    <div className='flex sm:py-[10px] py-[20px]'>
+                        <Link to={"/resume"}>
+                            <button className='btn1 me-[10px]'>RESUME</button>
+                        </Link>
+                        <Link to={"/project"}>
+                            <button className='btn2'>PROJECTS</button>
+                        </Link>
                     </div>
-                    <p className='font-light text-[14px] sm:text-[17px]'>
-                        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                    </p>
-                    <p className='font-light text-[14px] sm:text-[17px]'>I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                    <p className='font-light text-[14px] sm:text-[15px] '>
+                        I'm a passionate MERN Stack Developer with a strong focus on building responsive, user-friendly, and high-performance web applications. I enjoy turning complex problems into simple, beautiful solutions through clean code and modern design. My goal is to create digital experiences that are both functional and engaging.</p>
+                    <p className='font-light text-[14px] sm:text-[15px] py-[10px]'>I’m driven by curiosity, creativity, and a love for technology. I aim to build web solutions that are simple, scalable, and make life easier for users..</p>
                 </div>
             </div>
         </>
