@@ -7,7 +7,7 @@ const Left = () => {
         <>
             <div className='w-[45%] shadow-[-4px_0_10px_rgba(0,0,0,0.3)] sm11'>
                 <div className=" flex flex-col items-center justify-evenly h-[440px]">
-                    <img src={mit} alt="" style={{ width: "200px", height: "200px", borderRadius: "50%", backgroundColor: "pink" }} />
+                    <img src={mit} alt="" style={{ width: "200px", height: "200px", borderRadius: "50%",}} />
                     <h2 className='text-[31px] font-bold text-center'>Mit <br />Rakholiya</h2>
                     <hr className='w-[20%] h-[2px] bg-[blue]' />
                     <h3 className='text-[18px] font-light'>MARN Stack Devloper</h3>
