@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Common Pages/Header'
 import Footer from '../Common Pages/Footer'
 import { webTemp } from './Small/ProjectData'
-
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Project = () => {
 
@@ -32,8 +32,10 @@ const Project = () => {
 
                                     <p className='py-[40px]'>
                                         <div className='b1 px-[40px]'>
-                                            <span className='text-[blue] text-[26px] font-bold'>{v.name}</span>
-                                            <br />
+                                            <div className="flex items-center">
+                                                <span className='text-[blue] text-[26px] font-bold'><a href={v.giturl} style={{ textDecoration: 'underline' }}>{v.name}</a></span>
+                                            </div>
+
                                             <span>{v.role}</span>
                                         </div>
                                     </p>
