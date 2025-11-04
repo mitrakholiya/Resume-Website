@@ -18,7 +18,7 @@ const Resume = () => {
                     <div className="flex justify-between pb-[50px] sm:px-[0px] px-[20px] ">
                         <h3 className='text-[26px] font-bold'>Experience</h3>
                         <button className='btn1'><a
-                            href="{resume}"
+                            href={resume}
                             download="MyFile.pdf"> DOWNLOAD CV</a>
                             </button>
                     </div>
