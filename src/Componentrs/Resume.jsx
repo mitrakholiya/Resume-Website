@@ -19,7 +19,7 @@ const Resume = () => {
                         <h3 className='text-[26px] font-bold'>Experience</h3>
                         <button className='btn1'><a
                             href={resume}
-                            download="MyFile.pdf"> DOWNLOAD CV</a>
+                            download="Mit Rakholiya Resume.pdf"> DOWNLOAD CV</a>
                             </button>
                     </div>
                     <Box />
