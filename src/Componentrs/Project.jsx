@@ -14,11 +14,11 @@ const Project = () => {
             <Header />
             <div className="container-fluid bg-[#E6DACE] pb-[100px]">
                 <div className="container-small">
-                    <div className="pt-[70px]  flex justify-center items-center">
+                    <div className="pt-[20px] sm:pt-[70px]  flex justify-center items-center">
                         <li className=' list-[square] text-[blue] text-[54px]'></li>
                         <span className='text-black font-bold text-[38px]'>Project</span>
                     </div>
-                    <div className="py-[40px] flex justify-center items-center">
+                    <div className="py-[0px] sm:py-[40px] flex justify-center items-center">
                         <span className='text-black font-light text-[16px] text-center px-[20px] sm:px-[0px]'>
                             Here you can explore the projects I’ve worked on — each one reflects my growth as a developer and my passion for creating clean, user-friendly, and responsive web applications. From concept to deployment, I focus on building modern, efficient, and visually appealing solutions using the latest web technologies.
                         </span>
