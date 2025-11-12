@@ -19,7 +19,9 @@ const Project = () => {
                         <span className='text-black font-bold text-[38px]'>Project</span>
                     </div>
                     <div className="py-[40px] flex justify-center items-center">
-                        <span className='text-black font-light text-[16px] text-center px-[20px] sm:px-[0px]'>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.t</span>
+                        <span className='text-black font-light text-[16px] text-center px-[20px] sm:px-[0px]'>
+                            Here you can explore the projects I’ve worked on — each one reflects my growth as a developer and my passion for creating clean, user-friendly, and responsive web applications. From concept to deployment, I focus on building modern, efficient, and visually appealing solutions using the latest web technologies.
+                        </span>
                     </div>
                 </div>
 
